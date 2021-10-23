@@ -13,6 +13,9 @@
 		3CA63F7525CB04FE001C295E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA63F7325CB04FE001C295E /* Main.storyboard */; };
 		3CA63F7725CB04FF001C295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA63F7625CB04FF001C295E /* Assets.xcassets */; };
 		3CA63F7A25CB04FF001C295E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA63F7825CB04FF001C295E /* LaunchScreen.storyboard */; };
+		3CA63F8325CB0529001C295E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA63F8225CB0529001C295E /* CameraView.swift */; };
+		3CA63F8825CB0675001C295E /* LookForBarcodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA63F8725CB0675001C295E /* LookForBarcodes.swift */; };
+		3CA63F8B25CB075E001C295E /* UpdateTrackingFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA63F8A25CB075E001C295E /* UpdateTrackingFrames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3CA63F7625CB04FF001C295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CA63F7925CB04FF001C295E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CA63F7B25CB04FF001C295E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA63F8225CB0529001C295E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3CA63F8725CB0675001C295E /* LookForBarcodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookForBarcodes.swift; sourceTree = "<group>"; };
+		3CA63F8A25CB075E001C295E /* UpdateTrackingFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTrackingFrames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				3CA63F6D25CB04FD001C295E /* AppDelegate.swift */,
 				3CA63F6F25CB04FD001C295E /* SceneDelegate.swift */,
 				3CA63F7125CB04FD001C295E /* ViewController.swift */,
+				3CA63F8A25CB075E001C295E /* UpdateTrackingFrames.swift */,
+				3CA63F8725CB0675001C295E /* LookForBarcodes.swift */,
 				3CA63F7325CB04FE001C295E /* Main.storyboard */,
+				3CA63F8225CB0529001C295E /* CameraView.swift */,
 				3CA63F7625CB04FF001C295E /* Assets.xcassets */,
 				3CA63F7825CB04FF001C295E /* LaunchScreen.storyboard */,
 				3CA63F7B25CB04FF001C295E /* Info.plist */,
@@ -140,6 +149,9 @@
 				3CA63F7225CB04FD001C295E /* ViewController.swift in Sources */,
 				3CA63F6E25CB04FD001C295E /* AppDelegate.swift in Sources */,
 				3CA63F7025CB04FD001C295E /* SceneDelegate.swift in Sources */,
+				3CA63F8325CB0529001C295E /* CameraView.swift in Sources */,
+				3CA63F8825CB0675001C295E /* LookForBarcodes.swift in Sources */,
+				3CA63F8B25CB075E001C295E /* UpdateTrackingFrames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YA533DMD5J;
 				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YA533DMD5J;
 				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
